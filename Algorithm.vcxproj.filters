@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Array">
+      <UniqueIdentifier>{b5d610c4-a8ed-4dc8-ba08-918efeb60544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\1_TwoSum">
+      <UniqueIdentifier>{287138c2-eeeb-4e46-b318-90072ff0efb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\26_RemoveDuplicates">
+      <UniqueIdentifier>{167f8c92-0e43-4999-a4b7-02da9496ddf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\27_RemoveElement">
+      <UniqueIdentifier>{3d10b533-425c-403b-9d1d-800b1fb13bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\35_SearchInsert">
+      <UniqueIdentifier>{134fbf4b-1882-40f9-b3e6-176608329791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\53_MaxSubArray">
+      <UniqueIdentifier>{d4d5e179-ebdb-4edb-bd7f-479f03ca816e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\66_PlusOne">
+      <UniqueIdentifier>{54f49b32-8ae9-45ab-b206-2a63d7165ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\88_Merge">
+      <UniqueIdentifier>{7f139f37-8867-4d70-bc53-314253ef8ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\108_SortedArrayToBST">
+      <UniqueIdentifier>{a348fe07-b081-4048-baaa-7eadb978879d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\118_YangHuiTriangle_1">
+      <UniqueIdentifier>{06d2d8d5-8e9f-4435-8b7d-ff828c5058da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\119_YangHuiTriangle_2">
+      <UniqueIdentifier>{5e930fbf-1574-4015-8b99-f79c3549fc82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\121_MaxProfit">
+      <UniqueIdentifier>{2cda1705-c8bf-4238-9dd6-21aa5599e967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BinaryTree">
+      <UniqueIdentifier>{97f7ae32-0eb3-42dd-8b78-da7e1338db72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\1991_PivotIndex">
+      <UniqueIdentifier>{ced83ac4-f9b5-4469-ab95-3c596acc0dbf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\Array\1_TwoSum\two_sum.cpp">
+      <Filter>Source Files\Array\1_TwoSum</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Array\26_RemoveDuplicates\remove_duplicates.cpp">
+      <Filter>Source Files\Array\26_RemoveDuplicates</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Array\27_RemoveElement\remove_element.cpp">
+      <Filter>Source Files\Array\27_RemoveElement</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Array\35_SearchInsert\search_insert.cpp">
+      <Filter>Source Files\Array\35_SearchInsert</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Array\53_MaxSubArray\max_sub_array.cpp">
+      <Filter>Source Files\Array\53_MaxSubArray</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Array\66_PlusOne\plus_one.cpp">
+      <Filter>Source Files\Array\66_PlusOne</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Array\88_Merge\merge.cpp">
+      <Filter>Source Files\Array\88_Merge</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Array\108_SortedArrayToBST\sorted_array_to_bst.cpp">
+      <Filter>Source Files\Array\108_SortedArrayToBST</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Array\118_YangHuiTriangle_1\yanghui_triangle_1.cpp">
+      <Filter>Source Files\Array\118_YangHuiTriangle_1</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Array\119_YangHuiTriangle_2\yanghui_triangle_2.cpp">
+      <Filter>Source Files\Array\119_YangHuiTriangle_2</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Array\121_MaxProfit\max_profit.cpp">
+      <Filter>Source Files\Array\121_MaxProfit</Filter>
+    </ClCompile>
+    <ClCompile Include="code\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\BinaryTree\binary_tree.cpp">
+      <Filter>Source Files\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Array\1991_PivotIndex\pivot_index.cpp">
+      <Filter>Source Files\Array\1991_PivotIndex</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\Array\1_TwoSum\two_sum.h">
+      <Filter>Source Files\Array\1_TwoSum</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Array\26_RemoveDuplicates\remove_duplicates.h">
+      <Filter>Source Files\Array\26_RemoveDuplicates</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Array\27_RemoveElement\remove_element.h">
+      <Filter>Source Files\Array\27_RemoveElement</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Array\35_SearchInsert\search_insert.h">
+      <Filter>Source Files\Array\35_SearchInsert</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Array\53_MaxSubArray\max_sub_array.h">
+      <Filter>Source Files\Array\53_MaxSubArray</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Array\66_PlusOne\plus_one.h">
+      <Filter>Source Files\Array\66_PlusOne</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Array\88_Merge\merge.h">
+      <Filter>Source Files\Array\88_Merge</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Array\108_SortedArrayToBST\sorted_array_to_bst.h">
+      <Filter>Source Files\Array\108_SortedArrayToBST</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Array\118_YangHuiTriangle_1\yanghui_triangle_1.h">
+      <Filter>Source Files\Array\118_YangHuiTriangle_1</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Array\119_YangHuiTriangle_2\yanghui_triangle_2.h">
+      <Filter>Source Files\Array\119_YangHuiTriangle_2</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Array\121_MaxProfit\max_profit.h">
+      <Filter>Source Files\Array\121_MaxProfit</Filter>
+    </ClInclude>
+    <ClInclude Include="code\BinaryTree\binary_tree.h">
+      <Filter>Source Files\BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Array\1991_PivotIndex\pivot_index.h">
+      <Filter>Source Files\Array\1991_PivotIndex</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
