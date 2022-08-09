@@ -5,16 +5,17 @@ namespace leetcode
 
 int PivotIndex::Run(vector<int>& nums)
 {
+#ifdef 0
 	//***************** opt? *****************
-
+#elif 1
 	//***************** 1. Original Solution *****************
-	//calculate sum of vector
+	//calculate sum of vector: t-O(n)
 	int sum = 0;
 	for (auto num : nums)
 	{
 		sum += num;
 	}
-	//iterate to find index
+	//iterate to find index: t-O(n^2)
 	for (int i = 0; i < nums.size(); ++i)
 	{
 		int left_sum = 0;
@@ -28,6 +29,7 @@ int PivotIndex::Run(vector<int>& nums)
 	}
 
 	return -1;
+#endif
 }
 
 }
