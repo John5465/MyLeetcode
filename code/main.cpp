@@ -1,15 +1,15 @@
 #include <iostream>
 
-#include "Array/121_MaxProfit/max_profit.h"
+#include "Array/1991_PivotIndex/pivot_index.h"
 
 using namespace std;
 
 int main(int argc, char** argv) {
-  leetcode::MaxProfit max_profit;
+	leetcode::PivotIndex pivot_index;
 
-  int ret = max_profit.Run(max_profit.prices);
+	int ret = pivot_index.Run(pivot_index.nums_);
 
-  cout << ret << endl;
+	cout << ret << endl;
 
-  return 0;
+	return 0;
 }
