@@ -5,7 +5,7 @@ namespace leetcode
 
 int PivotIndex::Run(vector<int>& nums)
 {
-#ifdef 0
+#if 0
 	//***************** opt? *****************
 #elif 1
 	//***************** 1. Original Solution *****************

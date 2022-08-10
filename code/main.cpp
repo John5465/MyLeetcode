@@ -1,15 +1,24 @@
 #include <iostream>
 
-#include "Array/1991_PivotIndex/pivot_index.h"
+#include "Array/56_MergeIntervals/merge_intervals.h"
 
 using namespace std;
 
-int main(int argc, char** argv) {
-	leetcode::PivotIndex pivot_index;
+int main(int argc, char** argv) 
+{
+	leetcode::MergeIntervals merge_intervals;
 
-	int ret = pivot_index.Run(pivot_index.nums_);
+	vector<vector<int>> intervals = merge_intervals.Run(merge_intervals.intervals_);
 
-	cout << ret << endl;
+	for (auto interval : intervals)
+	{
+		cout << "[";
+		for (auto num : interval)
+		{
+			cout << num << " ";
+		}
+		cout << "]" << endl;
+	}
 
 	return 0;
 }

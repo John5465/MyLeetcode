@@ -55,6 +55,9 @@
     <Filter Include="Source Files\Array\1991_PivotIndex">
       <UniqueIdentifier>{ced83ac4-f9b5-4469-ab95-3c596acc0dbf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Array\56_MergeIntervals">
+      <UniqueIdentifier>{a8e9cf75-ef35-45ae-9495-098cd9e2d668}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="code\Array\1_TwoSum\two_sum.cpp">
@@ -99,6 +102,9 @@
     <ClCompile Include="code\Array\1991_PivotIndex\pivot_index.cpp">
       <Filter>Source Files\Array\1991_PivotIndex</Filter>
     </ClCompile>
+    <ClCompile Include="code\Array\56_MergeIntervals\merge_intervals.cpp">
+      <Filter>Source Files\Array\56_MergeIntervals</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="code\Array\1_TwoSum\two_sum.h">
@@ -139,6 +145,9 @@
     </ClInclude>
     <ClInclude Include="code\Array\1991_PivotIndex\pivot_index.h">
       <Filter>Source Files\Array\1991_PivotIndex</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Array\56_MergeIntervals\merge_intervals.h">
+      <Filter>Source Files\Array\56_MergeIntervals</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

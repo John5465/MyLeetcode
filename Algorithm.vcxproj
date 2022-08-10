@@ -29,6 +29,7 @@
     <ClCompile Include="code\Array\27_RemoveElement\remove_element.cpp" />
     <ClCompile Include="code\Array\35_SearchInsert\search_insert.cpp" />
     <ClCompile Include="code\Array\53_MaxSubArray\max_sub_array.cpp" />
+    <ClCompile Include="code\Array\56_MergeIntervals\merge_intervals.cpp" />
     <ClCompile Include="code\Array\66_PlusOne\plus_one.cpp" />
     <ClCompile Include="code\Array\88_Merge\merge.cpp" />
     <ClCompile Include="code\BinaryTree\binary_tree.cpp" />
@@ -45,6 +46,7 @@
     <ClInclude Include="code\Array\27_RemoveElement\remove_element.h" />
     <ClInclude Include="code\Array\35_SearchInsert\search_insert.h" />
     <ClInclude Include="code\Array\53_MaxSubArray\max_sub_array.h" />
+    <ClInclude Include="code\Array\56_MergeIntervals\merge_intervals.h" />
     <ClInclude Include="code\Array\66_PlusOne\plus_one.h" />
     <ClInclude Include="code\Array\88_Merge\merge.h" />
     <ClInclude Include="code\BinaryTree\binary_tree.h" />
